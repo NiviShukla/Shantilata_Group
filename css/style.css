@@ -200,7 +200,7 @@ a:hover {
 
 .custom-link:hover,
 .custom-link:hover::after {
-  color: var(--white-color);
+  color: #ecb81e;
 }
 
 b,
@@ -454,7 +454,7 @@ SERVICES
   left: 20px; /* Adjust the distance from the left as needed */
   right: 20px; /* Adjust the distance from the right as needed */
   text-align: left; /* Adjust the text alignment as needed */
-  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+  background: rgba(218, 218, 218, 0.738); /* Optional: Add a semi-transparent background for better readability */
   padding: 10px; /* Optional: Add padding for better readability */
   color: #fff; /* Optional: Set text color */
   font-size: 18px; /* Optional: Adjust the font size as needed */
@@ -715,8 +715,8 @@ SERVICES
 -----------------------------------------*/
 .site-footer {
   background: var(--dark-color);
-  padding-top: 4.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .site-footer .custom-link {
@@ -749,8 +749,8 @@ SERVICES
 }
 
 .social-icon-link {
-  color: rgba(255, 255, 255, 0.45);
-  font-size: 1rem;
+  color: rgb(2, 2, 2);
+  font-size: 1.5rem;
   display: inline-block;
   vertical-align: top;
   margin-top: 4px;
@@ -759,7 +759,7 @@ SERVICES
 }
 
 .social-icon-link:hover {
-  color: var(--primary-color);
+  color:  rgb(248, 185, 38);
 }
 
 /*---------------------------------------
