@@ -150,18 +150,28 @@ a:hover {
 .client-card {
   text-align: center;
   padding: 20px;
-  border: 1px solid #e0e0e0;
   border-radius: 5px;
 }
 
 .client-image {
   max-width: 100%;
-  height: auto;
+  height: 150px; /* Adjust this value to your preferred image height */
 }
 
 .client-name {
   font-weight: bold;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .client-card {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .client-image {
+    height: auto;
+    max-width: 80%; /* Reduce image width on smaller screens */
+  }
 }
 
 /*---------------------------------------
