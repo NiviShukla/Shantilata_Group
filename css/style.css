@@ -169,10 +169,22 @@ a:hover {
   }
 
   .client-image {
-    height: auto;
+    height: 150px;
     max-width: 80%; /* Reduce image width on smaller screens */
   }
 }
+
+@media (max-width: 480px) {
+  .client-card {
+    padding: 5px; /* Further reduce padding on phone-sized screens */
+  }
+
+  .client-image {
+    height: 100px;
+    max-width: 100%; /* Make image full width on phone-sized screens */
+  }
+}
+
 
 /*---------------------------------------
   CUSTOM LINK               
@@ -463,14 +475,16 @@ SERVICES
   bottom: 20px; /* Adjust the distance from the bottom as needed */
   left: 20px; /* Adjust the distance from the left as needed */
   right: 20px; /* Adjust the distance from the right as needed */
-  text-align: left; /* Adjust the text alignment as needed */
-  background: rgba(218, 218, 218, 0.738); /* Optional: Add a semi-transparent background for better readability */
+  text-align: center; /* Adjust the text alignment as needed */
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+  border-radius: 30px;
   padding: 10px; /* Optional: Add padding for better readability */
   color: #fff; /* Optional: Set text color */
   font-size: 18px; /* Optional: Adjust the font size as needed */
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden;
-  text-overflow: ellipsis; /* Truncate long titles with an ellipsis */
 }
 
 
