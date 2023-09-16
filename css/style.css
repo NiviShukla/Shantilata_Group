@@ -618,7 +618,6 @@ div.portfolio-info p {
 .portfolio-card {
   flex: 0 0 calc(33.33% - 20px); /* 33.33% for three cards in a row with a 20px gap in between */
   margin-bottom: 20px;
-  border-radius: 30px;
   background: #e8e8e8;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
   transition: all 0.3s ease; /* Add a smooth transition effect for hover */
