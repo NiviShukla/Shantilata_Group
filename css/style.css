@@ -263,75 +263,6 @@ SERVICES
 ----------------------------------------*/
 
 /* CSS for the service slideshow container */
-.service-slideshow {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 100%;
-    height: 400px; /* Adjust the height as needed */
-}
-
-/* CSS for each service card */
-.service-card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-/* CSS for the service image within each card */
-.service-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* CSS for the service info within each card */
-.service-info {
-    position: absolute;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    left: 20px; /* Adjust the distance from the left as needed */
-    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
-    padding: 10px; /* Optional: Add padding for better readability */
-    color: #fff; /* Optional: Set text color */
-    font-size: 18px; /* Optional: Adjust the font size as needed */
-}
-
-/* CSS for the navigation arrows */
-.service-navigation {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
-/* CSS for the navigation arrow buttons */
-.prev-service,
-.next-service {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    font-size: 24px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.prev-service:hover,
-.next-service:hover {
-    background-color: #555;
-}
-
-/* CSS for the service description */
-.service-description {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    color: #fff;
-    font-size: 18px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 /*---------------------------------------
@@ -663,7 +594,64 @@ SERVICES
 
 .portfolio-info {
   margin: 20px;
+  text-align: center;
 }
+
+.read-more {
+  color: var(--primary-color);
+  text-decoration: underline; /* Add underline to the link */
+  display: inline-block; /* Make it inline to center it horizontally */
+}
+
+.portfolio-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.portfolio-info p {
+  font-size: 16px; /* Default font size */
+  color: #5a5a5a;
+  margin: 0;
+}
+
+.portfolio-card {
+  flex: 0 0 calc(33.33% - 20px); /* 33.33% for three cards in a row with a 20px gap in between */
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background: #e8e8e8;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  transition: all 0.3s ease; /* Add a smooth transition effect for hover */
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05); /* Increase size on hover for zoom effect */
+  background: #f5f5f5; /* Remove background color on hover */
+}
+
+.portfolio-card-content {
+  padding: 20px;
+}
+
+.portfolio-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.portfolio-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+
 
 /*---------------------------------------
   NEWS & EVENTS               
