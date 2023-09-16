@@ -633,7 +633,9 @@ customers!!"
                 <div class="row">
 
                     <div class="col-lg-6 col-md-12 col-sm-6 mx-auto text-center">
-                        <p style="color: azure; font-family: Verdana, Geneva, Tahoma, sans-serif;">© Copyright Shantilata Group 2023. All Rights Reserved</p>
+                        <p style="color: azure; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                            © Copyright Shantilata Group <span id="currentYear"></span>. All Rights Reserved
+                        </p>
                     </div>
 
 
@@ -642,6 +644,12 @@ customers!!"
         </footer>
 
         <!-- JAVASCRIPT FILES -->
+        <!--current Year  -->
+        <script>
+            var currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
+        </script>
+        <!----------------->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
