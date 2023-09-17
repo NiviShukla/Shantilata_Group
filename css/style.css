@@ -598,10 +598,16 @@ SERVICES
 }
 
 .read-more {
-  color: var(--primary-color);
+  color: rgb(67, 67, 67); /* Default color */
   text-decoration: underline; /* Add underline to the link */
   display: inline-block; /* Make it inline to center it horizontally */
+  transition: color 0.3s; /* Add a transition for a smooth color change */
 }
+
+.read-more:hover {
+  color: var(--primary-color); /* Change color on hover */
+}
+
 
 .portfolio-card-container {
   display: flex;
