@@ -486,7 +486,6 @@ SERVICES
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -495,6 +494,18 @@ SERVICES
   z-index: 1;
 }
 
+.prev::before {
+  content: " ";
+  border-left: 2px solid #ecb81e;
+  border-bottom: 2px solid #ecb81e;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  display: block;
+}
+
+
 .next {
   position: absolute;
   right: 0;
@@ -502,13 +513,23 @@ SERVICES
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
+}
+
+.next::before {
+  content: " ";
+    border-right: 2px solid #ecb81e;
+    border-top: 2px solid #ecb81e;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    display: block;
 }
 
 
