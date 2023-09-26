@@ -978,6 +978,25 @@ div.portfolio-info p {
     padding-bottom: 10px;
   }
 
+  /* Hide the hamburger button on mobile screens */
+@media (max-width: 767px) {
+  .custom-toggler {
+      display: none;
+  }
+}
+
+/* Style the "Home" link */
+.home-link {
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
+}
+
+/* Style the active link if needed */
+.home-link.active {
+  color: #000; /* Adjust the active link color as needed */
+}
+
+
   .section-padding {
     padding-top: 6rem;
     padding-bottom: 6rem;
