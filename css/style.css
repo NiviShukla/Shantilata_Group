@@ -698,7 +698,7 @@ SERVICES
 }
 
 .read-more:hover {
-  color: var(--primary-color); /* Change color on hover */
+  color: #e66b00; /* Change color on hover */
 }
 
 
