@@ -409,6 +409,7 @@ SERVICES
 }
 
 /* CSS for the slideshow container */
+/* CSS for the news card container */
 .news-slideshow {
   position: relative;
   overflow: hidden;
@@ -420,13 +421,13 @@ SERVICES
 /* CSS for each news card */
 .news-card {
   position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10%;
 }
 
 /* CSS for the news title within each card */
@@ -438,11 +439,19 @@ SERVICES
   text-align: center; /* Adjust the text alignment as needed */
   border-radius: 30px;
   padding: 10px; /* Optional: Add padding for better readability */
-  color: #fff; /* Optional: Set text color */
+  color: #dfdede; /* Optional: Set text color */
   font-size: 18px; /* Optional: Adjust the font size as needed */
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden;
 }
+
+/* CSS for the image inside .news-text-info */
+.news-card .news-text-info .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 /*---------------------------------------
@@ -507,14 +516,18 @@ SERVICES
 }
 
 .member .pic {
-  overflow: hidden;
-  width: 140px;
+  width: 100%;
+  max-width: 140px; /* Set a maximum width for mobile devices */
+  height: auto; /* Allow the height to adjust to the image content */
   border-radius: 4px;
 }
 
 .member .pic img {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: auto; /* Allow the height to adjust to the image content */
   transition: ease-in-out 0.3s;
 }
+
 
 .member:hover img {
   transform: scale(1.1);
