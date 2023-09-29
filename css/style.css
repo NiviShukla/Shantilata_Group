@@ -774,7 +774,7 @@ div.portfolio-info p {
 }
 
 .news-category {
-  background: var(--white-color);
+  background: #e66b00;
   position: absolute;
   z-index: 9;
   top: 0;
