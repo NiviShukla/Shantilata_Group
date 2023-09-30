@@ -92,6 +92,7 @@ p {
   letter-spacing: 0.5px;
 }
 
+
 .text-secondary-white-color {
   color:#ecb81e ;
 
@@ -115,7 +116,7 @@ p {
 
 @media (max-height: 500px) {
   .heroText h1 {
-    margin-top: 80px; /* Adjust this value to move the text down as needed */
+    margin-top: 20px; /* Adjust this value to move the text down as needed */
   }
 }
 @media (max-width: 600px) {
@@ -124,6 +125,22 @@ p {
     margin-bottom: 60px; /* Move the text higher up to place the navbar below it */
     padding: 10px; /* Add padding to increase readability and spacing */
     border-radius: 4px; /* Add rounded corners for a subtle style */
+  }
+}
+
+@media (max-width: 600px) {
+  .text-secondary-white-color {
+    font-size: 14px; /* Decrease font size for mobile screens */
+    margin-bottom: 20px; /* Adjust margin for better spacing */
+    padding: 10px; /* Add padding to increase readability and spacing */
+    border-radius: 4px; /* Add rounded corners for a subtle style */
+  }
+  .hero .heroText p {
+    font-size: 5px;
+  }
+
+  .heroText h1 {
+    font-size: 24px; /* Adjust the font size as needed */
   }
 }
 
@@ -629,7 +646,7 @@ SERVICES
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #556270;
+  color: #e66b00;
 }
 
 .member span {
