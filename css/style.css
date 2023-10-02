@@ -91,7 +91,9 @@ p {
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
 }
-
+ span {
+  font-size: 30px;
+ }
 
 .text-secondary-white-color {
   color:#ecb81e ;
@@ -128,6 +130,8 @@ p {
   }
 }
 
+
+
 @media (max-width: 600px) {
   .text-secondary-white-color {
     font-size: 14px; /* Decrease font size for mobile screens */
@@ -136,6 +140,10 @@ p {
     border-radius: 4px; /* Add rounded corners for a subtle style */
   }
   .hero .heroText p {
+    font-size: 10px;
+  }
+
+  .hero .heroText span {
     font-size: 10px;
   }
 
