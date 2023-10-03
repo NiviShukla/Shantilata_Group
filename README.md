@@ -23,9 +23,9 @@ The Shantilata Group website serves as the online presence for our organization,
 
 - **Services:** Explore the wide range of services we offer, from construction to design and consulting.
 
-- **Team:** Meet our dedicated team members and their expertise.
+- **Our Team:** Meet our dedicated team members and their expertise.
 
-- **Contact:** Get in touch with us through a convenient contact form or find our office location on Google Maps.
+- **Contact Us:** Get in touch with us through a convenient contact form or find our office location on Google Maps.
 
 ## Getting Started
 
